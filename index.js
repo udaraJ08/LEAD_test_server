@@ -21,7 +21,7 @@ app.get("/", (req, res) => {
 
 app.get("/data", (req, res) => {
 
-    res.status(202).send("send-panadol")
+    res.status(202).send("This is the panadol")
 })
 
 ////POST methods
